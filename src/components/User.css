@@ -1,0 +1,37 @@
+@media only screen and (max-width: 450px) {
+    .search-box{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+    .search-input{
+        text-align: center;
+        width: 80vw;
+        height: 6vh;
+        border-radius: 50px;
+        border: none;
+        color: #5E5E5E82;
+        background-color: #5E5E5E82 ;
+        letter-spacing: 0.06rem;
+        font-size: 18px;
+    }
+    .eachCard{
+        width: 80vw;
+        max-height:60vh; /* Set the maximum height for the container */
+        overflow-y: auto; /* Enable vertical scrollbar if content exceeds the container height */
+    }
+    .card {
+        height: 25vh;
+        background: #5e5e5ea0 0% 0% no-repeat padding-box;
+        box-shadow: inset 0px 4px 0px #00000040;
+        border-radius: 20px;
+        color: #FFFFFFB3;
+        transition: background 0.3s, color 0.3s, transform 0.3s;
+      }
+      .card:hover{
+        background: #6b6b6ba0 0% 0% no-repeat padding-box; /* Change the background on hover */
+        color: #FFFFFF; /* Change the text color on hover */
+        transform: scale(1.05); /* Add a slight scale effect for a 3D look */
+      }
+}

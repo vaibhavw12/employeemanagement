@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 450px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+    background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+    color: #36A546CC;
+    letter-spacing: 0.1rem;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .app-logo{
+    margin-top: 20vh;
+  }
+  .App input{
+    margin-top: 3vh;
+    width: 60vw;
+    height: 5vh;
+    background: #1F191966;
+    border-radius: 2rem;
+    border: none;
+    padding-left: 2rem;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    color: #36A546CC;
+  }
+  .login-btn{
+    margin-top: 5vh;
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #8CFF0026;
+    width: 66vw;
+    height: 5vh;
+    border-radius: 2rem;
+    color: rgb(178, 171, 156);
+    letter-spacing: 0.2rem;
+
+  }
+  .login-form{
+    text-align: center;
   }
 }

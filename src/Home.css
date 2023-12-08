@@ -1,0 +1,63 @@
+@media only screen and (max-width: 450px) {
+    body {
+      height: 100vh;
+      width: 100vw;
+      background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+      color: #36A546CC;
+      letter-spacing: 0.1rem;
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 2vh;
+        padding-right: 2vw;
+    }
+    .moto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vh;
+    }
+    .logo{
+      width: 10vw;
+    }
+    .logo:hover{
+      opacity: 0.5;
+    }
+    .info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .dashboard{
+      margin-top: 5vh;
+      width: 90vw;
+      height: 60vh;  
+      background: #5E5E5E82 0% 0% no-repeat padding-box;
+      box-shadow: inset 0px 4px 0px #00000040;
+      border-radius: 2rem
+    }
+    .footer{
+      position: fixed;
+      bottom: 0;
+      width: 100vw;
+      background: transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box;
+      box-shadow: inset 8px 4px 4px #00000040;
+    }
+    .footer-logo{
+      display: flex;
+      align-items: center;
+      height: 10vh;
+    }
+    .logobox{
+      text-align: center;
+      width: 50vw;
+    }
+    .hide{
+      display: none;
+    }
+    .user{
+      display: block;
+    }
+}

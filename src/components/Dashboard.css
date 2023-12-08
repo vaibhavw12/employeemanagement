@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .dashboard-header-box{
         display: flex;
         align-items: center;
@@ -31,4 +31,39 @@
      .displayUnits{
         margin-top: 5vh;
      }
+}
+/* --------------------------------------------------- */
+@media only screen and (min-width: 700px){
+   .dashboard-header-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .dashboard-header{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background: #1A2C2C99;
+       width: 89vw;
+       height: 7vh;
+       border: none;
+       border-radius: 2rem;
+       letter-spacing: 0.06rem;
+       color: #FFFFFFB3;
+   }
+   .each{
+      display: flex;
+      justify-content: space-around;
+   }
+   .eachDay{
+      height: 6vh;
+   }
+   .progressBar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .displayUnits{
+      margin-top: 5vh;
+   }
 }

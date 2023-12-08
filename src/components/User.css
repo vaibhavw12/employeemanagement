@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     .search-box{
         display: flex;
         text-align: center;
@@ -34,4 +34,47 @@
         color: #FFFFFF; /* Change the text color on hover */
         transform: scale(1.05); /* Add a slight scale effect for a 3D look */
       }
+}
+/* --------------------------------------------------- */
+@media only screen and (min-width: 700px){
+    .search-box{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .search-input{
+        text-align: center;
+        width: 40vw;
+        height: 6vh;
+        border-radius: 50px;
+        border: none;
+        color: #5E5E5E82;
+        background-color: #5E5E5E82 ;
+        letter-spacing: 0.06rem;
+        font-size: 18px;
+    }
+    .eachCard{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px 0px;
+        width: 80vw;
+        max-height:60vh; /* Set the maximum height for the container */
+        overflow-y: auto; /* Enable vertical scrollbar if content exceeds the container height */
+    }
+    .card {
+        height: 32vh;
+        width: 30vw;
+        background: #5e5e5ea0 0% 0% no-repeat padding-box;
+        box-shadow: inset 0px 4px 0px #00000040;
+        border-radius: 20px;
+        color: #FFFFFFB3;
+        transition: background 0.3s, color 0.3s, transform 0.3s;
+      }
+      .card:hover{
+        background: #6b6b6ba0 0% 0% no-repeat padding-box; /* Change the background on hover */
+        color: #FFFFFF; /* Change the text color on hover */
+        transform: scale(1.05); /* Add a slight scale effect for a 3D look */
+      }  
 }
